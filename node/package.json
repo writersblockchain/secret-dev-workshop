@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "secretjs": "^1.8.1"
+    "secretjs": "^1.15.1"
   }
 }

@@ -75,8 +75,8 @@ proto.google.protobuf.Duration.prototype.toObject = function(opt_includeInstance
  */
 proto.google.protobuf.Duration.toObject = function(includeInstance, msg) {
   var f, obj = {
-    seconds: jspb.Message.getFieldWithDefault(msg, 1, 0),
-    nanos: jspb.Message.getFieldWithDefault(msg, 2, 0)
+seconds: jspb.Message.getFieldWithDefault(msg, 1, 0),
+nanos: jspb.Message.getFieldWithDefault(msg, 2, 0)
   };
 
   if (includeInstance) {

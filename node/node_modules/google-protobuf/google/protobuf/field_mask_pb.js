@@ -82,7 +82,7 @@ proto.google.protobuf.FieldMask.prototype.toObject = function(opt_includeInstanc
  */
 proto.google.protobuf.FieldMask.toObject = function(includeInstance, msg) {
   var f, obj = {
-    pathsList: (f = jspb.Message.getRepeatedField(msg, 1)) == null ? undefined : f
+pathsList: (f = jspb.Message.getRepeatedField(msg, 1)) == null ? undefined : f
   };
 
   if (includeInstance) {

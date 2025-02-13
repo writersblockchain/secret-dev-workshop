@@ -130,16 +130,16 @@ proto.google.protobuf.Api.prototype.toObject = function(opt_includeInstance) {
  */
 proto.google.protobuf.Api.toObject = function(includeInstance, msg) {
   var f, obj = {
-    name: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    methodsList: jspb.Message.toObjectList(msg.getMethodsList(),
+name: jspb.Message.getFieldWithDefault(msg, 1, ""),
+methodsList: jspb.Message.toObjectList(msg.getMethodsList(),
     proto.google.protobuf.Method.toObject, includeInstance),
-    optionsList: jspb.Message.toObjectList(msg.getOptionsList(),
+optionsList: jspb.Message.toObjectList(msg.getOptionsList(),
     google_protobuf_type_pb.Option.toObject, includeInstance),
-    version: jspb.Message.getFieldWithDefault(msg, 4, ""),
-    sourceContext: (f = msg.getSourceContext()) && google_protobuf_source_context_pb.SourceContext.toObject(includeInstance, f),
-    mixinsList: jspb.Message.toObjectList(msg.getMixinsList(),
+version: jspb.Message.getFieldWithDefault(msg, 4, ""),
+sourceContext: (f = msg.getSourceContext()) && google_protobuf_source_context_pb.SourceContext.toObject(includeInstance, f),
+mixinsList: jspb.Message.toObjectList(msg.getMixinsList(),
     proto.google.protobuf.Mixin.toObject, includeInstance),
-    syntax: jspb.Message.getFieldWithDefault(msg, 7, 0)
+syntax: jspb.Message.getFieldWithDefault(msg, 7, 0)
   };
 
   if (includeInstance) {
@@ -537,14 +537,14 @@ proto.google.protobuf.Method.prototype.toObject = function(opt_includeInstance) 
  */
 proto.google.protobuf.Method.toObject = function(includeInstance, msg) {
   var f, obj = {
-    name: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    requestTypeUrl: jspb.Message.getFieldWithDefault(msg, 2, ""),
-    requestStreaming: jspb.Message.getBooleanFieldWithDefault(msg, 3, false),
-    responseTypeUrl: jspb.Message.getFieldWithDefault(msg, 4, ""),
-    responseStreaming: jspb.Message.getBooleanFieldWithDefault(msg, 5, false),
-    optionsList: jspb.Message.toObjectList(msg.getOptionsList(),
+name: jspb.Message.getFieldWithDefault(msg, 1, ""),
+requestTypeUrl: jspb.Message.getFieldWithDefault(msg, 2, ""),
+requestStreaming: jspb.Message.getBooleanFieldWithDefault(msg, 3, false),
+responseTypeUrl: jspb.Message.getFieldWithDefault(msg, 4, ""),
+responseStreaming: jspb.Message.getBooleanFieldWithDefault(msg, 5, false),
+optionsList: jspb.Message.toObjectList(msg.getOptionsList(),
     google_protobuf_type_pb.Option.toObject, includeInstance),
-    syntax: jspb.Message.getFieldWithDefault(msg, 7, 0)
+syntax: jspb.Message.getFieldWithDefault(msg, 7, 0)
   };
 
   if (includeInstance) {
@@ -870,8 +870,8 @@ proto.google.protobuf.Mixin.prototype.toObject = function(opt_includeInstance) {
  */
 proto.google.protobuf.Mixin.toObject = function(includeInstance, msg) {
   var f, obj = {
-    name: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    root: jspb.Message.getFieldWithDefault(msg, 2, "")
+name: jspb.Message.getFieldWithDefault(msg, 1, ""),
+root: jspb.Message.getFieldWithDefault(msg, 2, "")
   };
 
   if (includeInstance) {

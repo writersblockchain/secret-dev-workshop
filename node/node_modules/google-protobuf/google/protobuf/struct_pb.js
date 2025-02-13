@@ -121,7 +121,7 @@ proto.google.protobuf.Struct.prototype.toObject = function(opt_includeInstance) 
  */
 proto.google.protobuf.Struct.toObject = function(includeInstance, msg) {
   var f, obj = {
-    fieldsMap: (f = msg.getFieldsMap()) ? f.toObject(includeInstance, proto.google.protobuf.Value.toObject) : []
+fieldsMap: (f = msg.getFieldsMap()) ? f.toObject(includeInstance, proto.google.protobuf.Value.toObject) : []
   };
 
   if (includeInstance) {
@@ -285,12 +285,12 @@ proto.google.protobuf.Value.prototype.toObject = function(opt_includeInstance) {
  */
 proto.google.protobuf.Value.toObject = function(includeInstance, msg) {
   var f, obj = {
-    nullValue: jspb.Message.getFieldWithDefault(msg, 1, 0),
-    numberValue: jspb.Message.getFloatingPointFieldWithDefault(msg, 2, 0.0),
-    stringValue: jspb.Message.getFieldWithDefault(msg, 3, ""),
-    boolValue: jspb.Message.getBooleanFieldWithDefault(msg, 4, false),
-    structValue: (f = msg.getStructValue()) && proto.google.protobuf.Struct.toObject(includeInstance, f),
-    listValue: (f = msg.getListValue()) && proto.google.protobuf.ListValue.toObject(includeInstance, f)
+nullValue: (f = jspb.Message.getField(msg, 1)) == null ? undefined : f,
+numberValue: (f = jspb.Message.getOptionalFloatingPointField(msg, 2)) == null ? undefined : f,
+stringValue: (f = jspb.Message.getField(msg, 3)) == null ? undefined : f,
+boolValue: (f = jspb.Message.getBooleanField(msg, 4)) == null ? undefined : f,
+structValue: (f = msg.getStructValue()) && proto.google.protobuf.Struct.toObject(includeInstance, f),
+listValue: (f = msg.getListValue()) && proto.google.protobuf.ListValue.toObject(includeInstance, f)
   };
 
   if (includeInstance) {
@@ -686,7 +686,7 @@ proto.google.protobuf.ListValue.prototype.toObject = function(opt_includeInstanc
  */
 proto.google.protobuf.ListValue.toObject = function(includeInstance, msg) {
   var f, obj = {
-    valuesList: jspb.Message.toObjectList(msg.getValuesList(),
+valuesList: jspb.Message.toObjectList(msg.getValuesList(),
     proto.google.protobuf.Value.toObject, includeInstance)
   };
 

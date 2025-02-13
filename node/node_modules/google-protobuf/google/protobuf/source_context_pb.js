@@ -75,7 +75,7 @@ proto.google.protobuf.SourceContext.prototype.toObject = function(opt_includeIns
  */
 proto.google.protobuf.SourceContext.toObject = function(includeInstance, msg) {
   var f, obj = {
-    fileName: jspb.Message.getFieldWithDefault(msg, 1, "")
+fileName: jspb.Message.getFieldWithDefault(msg, 1, "")
   };
 
   if (includeInstance) {

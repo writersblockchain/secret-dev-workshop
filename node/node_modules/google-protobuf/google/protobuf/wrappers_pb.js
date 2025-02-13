@@ -251,7 +251,7 @@ proto.google.protobuf.DoubleValue.prototype.toObject = function(opt_includeInsta
  */
 proto.google.protobuf.DoubleValue.toObject = function(includeInstance, msg) {
   var f, obj = {
-    value: jspb.Message.getFloatingPointFieldWithDefault(msg, 1, 0.0)
+value: jspb.Message.getFloatingPointFieldWithDefault(msg, 1, 0.0)
   };
 
   if (includeInstance) {
@@ -381,7 +381,7 @@ proto.google.protobuf.FloatValue.prototype.toObject = function(opt_includeInstan
  */
 proto.google.protobuf.FloatValue.toObject = function(includeInstance, msg) {
   var f, obj = {
-    value: jspb.Message.getFloatingPointFieldWithDefault(msg, 1, 0.0)
+value: jspb.Message.getFloatingPointFieldWithDefault(msg, 1, 0.0)
   };
 
   if (includeInstance) {
@@ -511,7 +511,7 @@ proto.google.protobuf.Int64Value.prototype.toObject = function(opt_includeInstan
  */
 proto.google.protobuf.Int64Value.toObject = function(includeInstance, msg) {
   var f, obj = {
-    value: jspb.Message.getFieldWithDefault(msg, 1, 0)
+value: jspb.Message.getFieldWithDefault(msg, 1, 0)
   };
 
   if (includeInstance) {
@@ -641,7 +641,7 @@ proto.google.protobuf.UInt64Value.prototype.toObject = function(opt_includeInsta
  */
 proto.google.protobuf.UInt64Value.toObject = function(includeInstance, msg) {
   var f, obj = {
-    value: jspb.Message.getFieldWithDefault(msg, 1, 0)
+value: jspb.Message.getFieldWithDefault(msg, 1, 0)
   };
 
   if (includeInstance) {
@@ -771,7 +771,7 @@ proto.google.protobuf.Int32Value.prototype.toObject = function(opt_includeInstan
  */
 proto.google.protobuf.Int32Value.toObject = function(includeInstance, msg) {
   var f, obj = {
-    value: jspb.Message.getFieldWithDefault(msg, 1, 0)
+value: jspb.Message.getFieldWithDefault(msg, 1, 0)
   };
 
   if (includeInstance) {
@@ -901,7 +901,7 @@ proto.google.protobuf.UInt32Value.prototype.toObject = function(opt_includeInsta
  */
 proto.google.protobuf.UInt32Value.toObject = function(includeInstance, msg) {
   var f, obj = {
-    value: jspb.Message.getFieldWithDefault(msg, 1, 0)
+value: jspb.Message.getFieldWithDefault(msg, 1, 0)
   };
 
   if (includeInstance) {
@@ -1031,7 +1031,7 @@ proto.google.protobuf.BoolValue.prototype.toObject = function(opt_includeInstanc
  */
 proto.google.protobuf.BoolValue.toObject = function(includeInstance, msg) {
   var f, obj = {
-    value: jspb.Message.getBooleanFieldWithDefault(msg, 1, false)
+value: jspb.Message.getBooleanFieldWithDefault(msg, 1, false)
   };
 
   if (includeInstance) {
@@ -1161,7 +1161,7 @@ proto.google.protobuf.StringValue.prototype.toObject = function(opt_includeInsta
  */
 proto.google.protobuf.StringValue.toObject = function(includeInstance, msg) {
   var f, obj = {
-    value: jspb.Message.getFieldWithDefault(msg, 1, "")
+value: jspb.Message.getFieldWithDefault(msg, 1, "")
   };
 
   if (includeInstance) {
@@ -1291,7 +1291,7 @@ proto.google.protobuf.BytesValue.prototype.toObject = function(opt_includeInstan
  */
 proto.google.protobuf.BytesValue.toObject = function(includeInstance, msg) {
   var f, obj = {
-    value: msg.getValue_asB64()
+value: msg.getValue_asB64()
   };
 
   if (includeInstance) {
